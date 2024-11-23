@@ -19,9 +19,10 @@ body {
   background-color: #ff7b22;
   border-radius: 10px;
 }
-::-webkit-scrollbar-thumb:hover{
-    background-color: #e06716;
-}:-webkit-scrollbar-track {
+::-webkit-scrollbar-thumb:hover {
+  background-color: #e06716;
+}
+:-webkit-scrollbar-track {
   background-color: #591f1d;
 }
 
@@ -118,11 +119,8 @@ body {
   font-weight: 500;
   border-radius: 5px;
   cursor: pointer;
-  transition: transform 0.3s ease;
 }
-.intro button:hover {
-  transform: scale(1.1) translateY(-10px);
-}
+
 .animation-show {
   transform: translateY(50px);
   opacity: 0;
