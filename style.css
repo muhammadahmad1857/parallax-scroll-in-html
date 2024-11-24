@@ -17,10 +17,17 @@ body {
 
 ::-webkit-scrollbar-thumb {
   background-color: #ff7b22;
+  background-image: -webkit-linear-gradient(top, #ff7b22 0%, #ffbb00 100%);
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
   background-color: #e06716;
+  background-image: -webkit-linear-gradient(
+    top,
+    #ff7b22 0%,
+    #ffbb00 50%,
+    #e06716 100%
+  );
 }
 :-webkit-scrollbar-track {
   background-color: #591f1d;
