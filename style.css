@@ -29,8 +29,17 @@ body {
     #e06716 100%
   );
 }
-:-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   background-color: #591f1d;
+  border-radius: 10px;
+  margin-block: 0.5em;
+}
+
+@supports (scrollbar-color: red blue) {
+  * {
+    scrollbar-color: #ff7b22 #591f1d;
+    scrollbar-width: thin;
+  }
 }
 
 .banner {
