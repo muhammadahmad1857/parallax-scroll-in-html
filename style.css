@@ -7,7 +7,7 @@ body {
 }
 
 ::selection {
-  background: linear-gradient(to 40deg, #e06716, #591f1d);
+  background: #e06716, #591f1d;
   color: #fff;
 }
 
@@ -16,7 +16,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #ff7b22;
+  background-color: linear-gradient(to 40deg, #e06716, #591f1d);
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
