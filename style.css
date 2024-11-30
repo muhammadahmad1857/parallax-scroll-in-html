@@ -4,6 +4,7 @@ body {
   margin: 0;
   background-color: #210002;
   font-size: 15px;
+  overflow-x: hidden;
 }
 
 ::selection {
